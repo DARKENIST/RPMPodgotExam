@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\Uchoba\\RPMExamPodgot\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6BF97EFA-D68C-4721-89F0-75730B6B507B}|RPMExamPodgot.csproj|C:\\Users\\User\\Desktop\\Uchoba\\RPMExamPodgot\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BF97EFA-D68C-4721-89F0-75730B6B507B}|RPMExamPodgot.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BF97EFA-D68C-4721-89F0-75730B6B507B}|RPMExamPodgot.csproj|C:\\Users\\User\\Desktop\\Uchoba\\RPMExamPodgot\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6BF97EFA-D68C-4721-89F0-75730B6B507B}|RPMExamPodgot.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BF97EFA-D68C-4721-89F0-75730B6B507B}|RPMExamPodgot.csproj|c:\\users\\user\\desktop\\uchoba\\rpmexampodgot\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{6BF97EFA-D68C-4721-89F0-75730B6B507B}|RPMExamPodgot.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6BF97EFA-D68C-4721-89F0-75730B6B507B}|RPMExamPodgot.csproj|C:\\Users\\User\\Desktop\\Uchoba\\RPMExamPodgot\\productswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{6BF97EFA-D68C-4721-89F0-75730B6B507B}|RPMExamPodgot.csproj|solutionrelative:productswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6BF97EFA-D68C-4721-89F0-75730B6B507B}|RPMExamPodgot.csproj|C:\\Users\\User\\Desktop\\Uchoba\\RPMExamPodgot\\productswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6BF97EFA-D68C-4721-89F0-75730B6B507B}|RPMExamPodgot.csproj|solutionrelative:productswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BF97EFA-D68C-4721-89F0-75730B6B507B}|RPMExamPodgot.csproj|c:\\users\\user\\desktop\\uchoba\\rpmexampodgot\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{6BF97EFA-D68C-4721-89F0-75730B6B507B}|RPMExamPodgot.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\Uchoba\\RPMExamPodgot\\packages\\SourceGear.sqlite3.3.53.4\\build\\net471\\SourceGear.sqlite3.props||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
@@ -27,10 +35,6 @@
       "RelativeMoniker": "D:0:0:{6BF97EFA-D68C-4721-89F0-75730B6B507B}|RPMExamPodgot.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6BF97EFA-D68C-4721-89F0-75730B6B507B}|RPMExamPodgot.csproj|C:\\Users\\User\\Desktop\\Uchoba\\RPMExamPodgot\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BF97EFA-D68C-4721-89F0-75730B6B507B}|RPMExamPodgot.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6BF97EFA-D68C-4721-89F0-75730B6B507B}|RPMExamPodgot.csproj|C:\\Users\\User\\Desktop\\Uchoba\\RPMExamPodgot\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6BF97EFA-D68C-4721-89F0-75730B6B507B}|RPMExamPodgot.csproj|solutionrelative:loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -41,10 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6BF97EFA-D68C-4721-89F0-75730B6B507B}|RPMExamPodgot.csproj|C:\\Users\\User\\Desktop\\Uchoba\\RPMExamPodgot\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{6BF97EFA-D68C-4721-89F0-75730B6B507B}|RPMExamPodgot.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BF97EFA-D68C-4721-89F0-75730B6B507B}|RPMExamPodgot.csproj|C:\\Users\\User\\Desktop\\Uchoba\\RPMExamPodgot\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{6BF97EFA-D68C-4721-89F0-75730B6B507B}|RPMExamPodgot.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6BF97EFA-D68C-4721-89F0-75730B6B507B}|RPMExamPodgot.csproj|C:\\Users\\User\\Desktop\\Uchoba\\RPMExamPodgot\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -62,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,7 +70,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "SourceGear.sqlite3.props",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Uchoba\\RPMExamPodgot\\packages\\SourceGear.sqlite3.3.53.4\\build\\net471\\SourceGear.sqlite3.props",
               "RelativeDocumentMoniker": "packages\\SourceGear.sqlite3.3.53.4\\build\\net471\\SourceGear.sqlite3.props",
@@ -78,8 +78,7 @@
               "RelativeToolTip": "packages\\SourceGear.sqlite3.3.53.4\\build\\net471\\SourceGear.sqlite3.props",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2026-09-15T16:19:46.507Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-15T16:19:46.507Z"
             },
             {
               "$type": "Document",
@@ -89,14 +88,14 @@
               "RelativeDocumentMoniker": "App.config",
               "ToolTip": "C:\\Users\\User\\Desktop\\Uchoba\\RPMExamPodgot\\App.config",
               "RelativeToolTip": "App.config",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAABWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
               "WhenOpened": "2026-09-15T16:11:06.013Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "ProductsWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Uchoba\\RPMExamPodgot\\ProductsWindow.xaml.cs",
               "RelativeDocumentMoniker": "ProductsWindow.xaml.cs",
@@ -104,24 +103,22 @@
               "RelativeToolTip": "ProductsWindow.xaml.cs",
               "ViewState": "AgIAADMAAAAAAAAAAAAowD0AAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-15T15:47:29.571Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-15T15:47:29.571Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "ProductsWindow.xaml",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Uchoba\\RPMExamPodgot\\ProductsWindow.xaml",
               "RelativeDocumentMoniker": "ProductsWindow.xaml",
               "ToolTip": "C:\\Users\\User\\Desktop\\Uchoba\\RPMExamPodgot\\ProductsWindow.xaml",
               "RelativeToolTip": "ProductsWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-09-15T15:46:48.615Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-15T15:46:48.615Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "LoginWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Uchoba\\RPMExamPodgot\\LoginWindow.xaml.cs",
               "RelativeDocumentMoniker": "LoginWindow.xaml.cs",
@@ -129,24 +126,22 @@
               "RelativeToolTip": "LoginWindow.xaml.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAywDMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-15T15:45:20.101Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-15T15:45:20.101Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "LoginWindow.xaml",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Uchoba\\RPMExamPodgot\\LoginWindow.xaml",
               "RelativeDocumentMoniker": "LoginWindow.xaml",
               "ToolTip": "C:\\Users\\User\\Desktop\\Uchoba\\RPMExamPodgot\\LoginWindow.xaml",
               "RelativeToolTip": "LoginWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-09-15T15:44:25.68Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-15T15:44:25.68Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Uchoba\\RPMExamPodgot\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
@@ -154,8 +149,7 @@
               "RelativeToolTip": "Data\\AppDbContext.cs",
               "ViewState": "AgIAABkAAAAAAAAAAAAqwDIAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-15T15:42:33.17Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-15T15:42:33.17Z"
             },
             {
               "$type": "Document",
@@ -167,25 +161,24 @@
               "RelativeToolTip": "Models\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-15T15:39:53.982Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-15T15:39:53.982Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Uchoba\\RPMExamPodgot\\App.xaml.cs",
               "RelativeDocumentMoniker": "App.xaml.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\Uchoba\\RPMExamPodgot\\App.xaml.cs",
               "RelativeToolTip": "App.xaml.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAvwBoAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAvwBMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-15T15:36:32.896Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 1,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Uchoba\\RPMExamPodgot\\App.xaml",
               "RelativeDocumentMoniker": "App.xaml",
@@ -197,7 +190,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Uchoba\\RPMExamPodgot\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
@@ -205,8 +198,7 @@
               "RelativeToolTip": "MainWindow.xaml.cs",
               "ViewState": "AgIAABsAAAAAAAAAAIAzwCoAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-15T15:35:56.593Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-15T15:35:56.593Z"
             },
             {
               "$type": "Document",
@@ -218,20 +210,18 @@
               "RelativeToolTip": "Models\\Product.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-15T15:41:39.425Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-15T15:41:39.425Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Uchoba\\RPMExamPodgot\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
               "ToolTip": "C:\\Users\\User\\Desktop\\Uchoba\\RPMExamPodgot\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-09-15T15:36:00.433Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-15T15:36:00.433Z"
             }
           ]
         }

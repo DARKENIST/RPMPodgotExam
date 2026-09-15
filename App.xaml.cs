@@ -18,9 +18,6 @@ namespace RPMExamPodgot
         {
             base.OnStartup(e);
 
-            // Создаём БД и наполняем начальными данными
-            AppDbContext.InitializeDatabase();
-
             new LoginWindow().Show();
         }
     }
