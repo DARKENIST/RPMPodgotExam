@@ -1,5 +1,4 @@
-﻿using RPMExamPodgot.Data;
-using RPMExamPodgot.Models;
+﻿using RPMExamPodgot.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -23,18 +22,18 @@ namespace RPMExamPodgot
     public partial class ProductsWindow : Window
     {
         private readonly bool _canEdit;
+        private List<Products> _items;
 
         public ProductsWindow(bool canEdit)
         {
             InitializeComponent();
             _canEdit = canEdit;
 
-            List<Product> products;
-            using (var db = new AppDbContext())
+            using (var db = new RPMExamDBEntities())
             {
-                products = db.Products.ToList();
+                _items = db.Products.ToList();
             }
-            Grid.ItemsSource = products;
+            Grid.ItemsSource = _items;
 
             if (!_canEdit)
             {
@@ -47,31 +46,45 @@ namespace RPMExamPodgot
 
         private void Save_Click(object sender, RoutedEventArgs e)
         {
-            Grid.CommitEdit(System.Windows.Controls.DataGridEditingUnit.Row, true);
+            Grid.CommitEdit(DataGridEditingUnit.Row, true);
 
-            var items = ((IEnumerable<Product>)Grid.ItemsSource).ToList();
-
-            using (var db = new AppDbContext())
+            using (var db = new RPMExamDBEntities())
             {
-                foreach (var p in items)
+                foreach (var p in _items)
                 {
                     if (p.Id == 0)
+                    {
                         db.Products.Add(p);
+                    }
                     else
-                        db.Products.Attach(p);                      
-                        db.Entry(p).State = EntityState.Modified;   
+                    {
+                        var existing = db.Products.Find(p.Id);
+                        if (existing != null)
+                        {
+                            existing.Name = p.Name;
+                            existing.Price = p.Price;
+                            existing.Quantity = p.Quantity;
+                        }
+                    }
                 }
                 db.SaveChanges();
             }
 
-            using (var db = new AppDbContext())
+            using (var db = new RPMExamDBEntities())
             {
-                Grid.ItemsSource = db.Products.ToList();
+                _items = db.Products.ToList();
             }
+            Grid.ItemsSource = _items;
 
             MessageBox.Show("Изменения сохранены.");
         }
 
         private void Close_Click(object sender, RoutedEventArgs e) => Close();
+        private void Back_Click(object sender, RoutedEventArgs e)
+        {
+            new LoginWindow().Show();
+
+            Close();
+        }
     }
 }

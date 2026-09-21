@@ -9,6 +9,8 @@
 //------------------------------------------------------------------------------
 
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("app.config")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("models/rpmexamdb.context.tt")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("models/rpmexamdb.tt")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("packages/sourcegear.sqlite3.3.53.4/runtimes/win-x64/native/e_sqlite3.dll")]
 
 

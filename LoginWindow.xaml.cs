@@ -1,24 +1,10 @@
-﻿using RPMExamPodgot.Data;
-using RPMExamPodgot.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
+using RPMExamPodgot.Models;  
 
 namespace RPMExamPodgot
 {
-    /// <summary>
-    /// Логика взаимодействия для LoginWindow.xaml
-    /// </summary>
     public partial class LoginWindow : Window
     {
         public LoginWindow() => InitializeComponent();
@@ -34,8 +20,8 @@ namespace RPMExamPodgot
                 return;
             }
 
-            User user;
-            using (var db = new AppDbContext())
+            Users user;
+            using (var db = new RPMExamDBEntities())
             {
                 user = db.Users.FirstOrDefault(u => u.Login == login && u.Password == password);
             }
@@ -46,16 +32,13 @@ namespace RPMExamPodgot
                 return;
             }
 
-            var main = new MainWindow(user);
-            main.Show();
+            new MainWindow(user).Show();
             Close();
         }
 
         private void Guest_Click(object sender, RoutedEventArgs e)
         {
-            // Гость — открываем просмотр товаров (только чтение)
-            var products = new ProductsWindow(canEdit: false);
-            products.Show();
+            new ProductsWindow(canEdit: false).Show();
             Close();
         }
     }
